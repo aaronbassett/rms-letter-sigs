@@ -641,12 +641,12 @@ if (pageHeaderActions) {
   if (githubUsernames.includes(username)) {
     let listItem = document.createElement("li")
     let rmsLetterLink = document.createElement("a")
-    rmsLetterLink.href = "https://rms-support-letter.github.io/"
+    rmsLetterLink.href = "https://github.com/ExtReMLapin/rms-letter-sigs"
 
     actionLinkClasses.forEach((className) =>
       rmsLetterLink.classList.add(className)
     )
-    let linkText = document.createTextNode("RMS Letter Signator")
+    let linkText = document.createTextNode("RMS crybaby letter Signator")
 
     rmsLetterLink.appendChild(linkText)
     listItem.appendChild(rmsLetterLink)
