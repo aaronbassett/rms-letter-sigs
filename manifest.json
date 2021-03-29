@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "RMS Open Letter Signatories Highlighter",
+    "name": "RMS babycry highlighter",
     "version": "0.1",
     "content_scripts": [
         {
