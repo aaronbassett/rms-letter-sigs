@@ -636,8 +636,7 @@ const githubUsernames = ["neilmcgovern",
 "szoszk"]
 
 if (pageHeaderActions) {
-  const username = window.location.pathname.split("/")[1].toLowerCase();
-
+  const username = window.location.pathname.split("/")[1];
   if (githubUsernames.includes(username)) {
     let listItem = document.createElement("li")
     let rmsLetterLink = document.createElement("a")
