@@ -10,4 +10,5 @@ Clone the repository and [install as an "unpacked extension"](https://webkul.com
 
 ## Manually Update List of Signatories
 
-You can use [the Python spider](https://github.com/aaronbassett/rms-letter-spider) to scrape an updated list of signatories at any time. This list should replace the `githubUsernames` list in `content.js`
+You can use [the Python spider](https://github.com/ZaMaZaN4iK/rms-letter-spider) to scrape an updated list of signatories at any time. This list should replace the `githubUsernames` list in `content.js`
+
