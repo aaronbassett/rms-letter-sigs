@@ -1,5 +1,5 @@
 let pageHeaderActions = document.querySelector(".pagehead-actions")
-const actionLinkClasses = ["btn", "btn-sm", "btn-danger"]
+const actionLinkClasses = ["btn", "btn-sm", "btn-primary"]
 const githubUsernames = [
   "boxerab",
   "AaronDewes",
@@ -3087,12 +3087,14 @@ if (pageHeaderActions) {
   if (githubUsernames.includes(username)) {
     let listItem = document.createElement("li")
     let rmsLetterLink = document.createElement("a")
+
     rmsLetterLink.href = "https://rms-support-letter.github.io/"
+
 
     actionLinkClasses.forEach((className) =>
       rmsLetterLink.classList.add(className)
     )
-    let linkText = document.createTextNode("RMS Letter Signator")
+    let linkText = document.createTextNode("I support RMS, you can too!!!")
 
     rmsLetterLink.appendChild(linkText)
     listItem.appendChild(rmsLetterLink)
