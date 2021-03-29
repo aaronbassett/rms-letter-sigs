@@ -3,3 +3,7 @@
 A chrome extension to add a notice to repositories from anyone who has signed the RMS Open Letter of support.
 
 ![Screenshot](./screenshot.png)
+
+## Installation
+
+Clone the repository and [install as an "unpacked extension"](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)
