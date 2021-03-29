@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "RMS crybaby highlighter",
+    "name": "Anti-RMS highlighter",
     "version": "0.1",
     "content_scripts": [
         {
