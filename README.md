@@ -1,5 +1,7 @@
 # RMS Open Letter Signatories Highlighter
 
+To respect right to be anonymous, if the "signatures" repo goes down, this repo will be deleted.
+
 A chrome extension to add a notice to repositories from anyone who has signed the RMS Open Letter of support.
 
 ![Screenshot](./screenshot.png)
