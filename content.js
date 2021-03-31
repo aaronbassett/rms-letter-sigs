@@ -3092,7 +3092,7 @@ if (pageHeaderActions) {
     actionLinkClasses.forEach((className) =>
       rmsLetterLink.classList.add(className)
     )
-    let linkText = document.createTextNode("RMS Letter Signator")
+    let linkText = document.createTextNode("&#10017; RMS Letter Signator")
 
     rmsLetterLink.appendChild(linkText)
     listItem.appendChild(rmsLetterLink)
