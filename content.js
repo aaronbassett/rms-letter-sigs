@@ -2989,6 +2989,8 @@ const githubUsernames = [
   "StoneToken",
   "yurand",
   "Yusuf-Kozan",
+  "yuvallanger",
+  "yuvallangerontheroad",
   "yw662",
   "ywmmmw",
   "Z572",
