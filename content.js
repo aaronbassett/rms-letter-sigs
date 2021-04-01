@@ -2309,6 +2309,7 @@ const githubUsernames = [
   "123BLiN",
   "rv82",
   "roman-wb",
+  "romanrm",
   "rombok",
   "romdegtyarev",
   "ros0x5Ft",
