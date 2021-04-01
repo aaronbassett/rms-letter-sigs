@@ -1,4 +1,7 @@
 let pageHeaderActions = document.querySelector(".pagehead-actions")
+let gitlabUserLinks = document.querySelector(".user-info .cover-desc:last-child .profile-link-holder:last-child")
+let gitlabRepoActions = document.querySelector(".project-repo-buttons .count-buttons")
+
 const actionLinkClasses = ["btn", "btn-sm", "btn-danger"]
 const githubUsernames = [
   "boxerab",
@@ -3080,7 +3083,7 @@ const githubUsernames = [
   "ols3er",
   "sir-xw",
 ]
-
+const gitlabUsernames = githubUsernames;// temporary
 if (pageHeaderActions) {
   const username = window.location.pathname.split("/")[1]
 
@@ -3097,5 +3100,46 @@ if (pageHeaderActions) {
     rmsLetterLink.appendChild(linkText)
     listItem.appendChild(rmsLetterLink)
     pageHeaderActions.insertBefore(listItem, pageHeaderActions.firstChild)
+  }
+}
+
+if (gitlabUserLinks) {
+  const username = window.location.pathname.split("/")[1]
+  if (gitlabUsernames.includes(username)) {
+    let linkWrapper = document.createElement("div")
+    "profile-link-holder middle-dot-divider".split(" ").forEach(className=>
+      linkWrapper.classList.add(className)
+    )
+    let rmsLetterLink = document.createElement("a")
+    rmsLetterLink.href = "https://rms-support-letter.github.io/"
+    let linkText = document.createTextNode("RMS Letter Signator")
+    rmsLetterLink.appendChild(linkText)
+    rmsLetterLink.setAttribute("style", "color: var(--red)")
+    linkWrapper.appendChild(rmsLetterLink)
+    gitlabUserLinks.parentNode.appendChild(linkWrapper)
+  }
+}
+
+if (gitlabRepoActions) {
+  const username = window.location.pathname.split("/")[1]
+  if (gitlabUsernames.includes(username)) {
+    let linkWrapper = document.createElement("div")
+    "count-badge btn-group".split(" ").forEach(className=>
+      linkWrapper.classList.add(className)
+    )
+    let linkSpan = document.createElement("span")
+    linkSpan.setAttribute("class", "btn-group")
+    let rmsLetterLink = document.createElement("a")
+    rmsLetterLink.href = "https://rms-support-letter.github.io/"
+    let linkText = document.createTextNode("RMS Letter Signator")
+    rmsLetterLink.appendChild(linkText)
+    "gl-button btn btn-danger btn-sm count".split(" ").forEach(className=>
+      rmsLetterLink.classList.add(className)
+    )
+    linkSpan.appendChild(rmsLetterLink)
+    linkWrapper.appendChild(linkSpan)
+    gitlabRepoActions.appendChild(linkWrapper)
+    //fixup element margin
+    linkWrapper.previousElementSibling.classList.add("gl-mr-3");
   }
 }
