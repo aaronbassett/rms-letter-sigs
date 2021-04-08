@@ -1,12 +1,14 @@
 # RMS Open Letter Signatories Highlighter
 
-A chrome extension to add a notice to repositories from anyone who has signed the RMS Open Letter of support.
+A Chrome and Firefox extension to add a notice to repositories from anyone who has signed the RMS Open Letter of support.
 
 ![Screenshot](./screenshot.png)
 
 ## Installation
+Clone the repository and install the extension to your browser following the instructions:
+* [Chrome](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)
+* [Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#installing)
 
-Clone the repository and [install as an "unpacked extension"](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)
 
 ## Manually Update List of Signatories
 
